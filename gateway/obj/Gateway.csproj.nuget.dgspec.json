@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\KTM_Backend\\CSHARP_PROJECTS\\hotchocolate-examples\\misc\\Stitching\\federated-subscription-not-working\\gateway\\Gateway.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\KTM_Backend\\CSHARP_PROJECTS\\hotchocolate-examples\\misc\\Stitching\\federated-subscription-not-working\\gateway\\Gateway.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\KTM_Backend\\CSHARP_PROJECTS\\hotchocolate-examples\\misc\\Stitching\\federated-subscription-not-working\\gateway\\Gateway.csproj",
+        "projectName": "Gateway",
+        "projectPath": "C:\\Projects\\KTM_Backend\\CSHARP_PROJECTS\\hotchocolate-examples\\misc\\Stitching\\federated-subscription-not-working\\gateway\\Gateway.csproj",
+        "packagesPath": "C:\\Users\\hoferd\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\KTM_Backend\\CSHARP_PROJECTS\\hotchocolate-examples\\misc\\Stitching\\federated-subscription-not-working\\gateway\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Projects\\KTM_Backend\\CSHARP_PROJECTS\\hotchocolate-examples\\NuGet.Config",
+          "C:\\Users\\hoferd\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "HotChocolate.Stitching": {
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "HotChocolate.Stitching.Redis": {
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "HotChocolate.Types.Analyzers": {
+              "target": "Package",
+              "version": "[12.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
